@@ -3,6 +3,9 @@
 ## General
 - [ ] tvOS and iOS work together.
 
+### Differences
+- [ ] http://ericasadun.com/2015/11/08/tvos-and-ios-some-thoughts/2/
+
 ## Frameworks
 - [ ] Metal
 - [ ] UIKit
