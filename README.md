@@ -4,19 +4,19 @@
 
 [**Frameworks**](#frameworks)
 
-[**Human Interface Guidelines**](#human Interface Guidelines)
+[**Human Interface Guidelines**](#human-interface-guidelines)
 
-[**Remote and interactions**](#remote and interactions)
+[**Remote and interactions**](#remote-and-interactions)
 
 [**Navigation**](#navigation)
 
-[**Icons and images**](#icons and images)
+[**Icons and images**](#icons-and-images)
 
-[**Visual Design**](#visual design)
+[**Visual Design**](#visual-design)
 
 [**Layout**](#layout)
 
-[**Interface elements**](#interface elements)
+[**Interface elements**](#interface-elements)
 
 [**Resources**](#resources)
 
