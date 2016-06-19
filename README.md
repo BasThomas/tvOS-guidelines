@@ -14,26 +14,28 @@
 
 [**Visual Design**](#Visual Design)
 
+[**Layout**](#layout)
+
 [**Interface elements**](#Interface elements)
 
 [**Resources**](#Resources)
 
-## General
+# General
 - [ ] tvOS and iOS work together.
 
-### Differences from iOS
+## Differences from iOS
 - [ ] http://ericasadun.com/2015/11/08/tvos-and-ios-some-thoughts/2/
 
-### Fonts
+## Fonts
 - [ ] http://ericasadun.com/2015/11/08/available-built-in-tvos-fonts/
 
-## Frameworks
+# Frameworks
 - [ ] Metal
 - [ ] UIKit
 - [ ] CloudKit
 - [ ] Game Center
 
-## [Human Interface Guidelines](https://developer.apple.com/tvos/human-interface-guidelines/)
+# [Human Interface Guidelines](https://developer.apple.com/tvos/human-interface-guidelines/)
 - [ ] Leverage touch in a way that connects people with your content in a delightful and engaging manner.
 - [ ] Use layout grids, movement, and transparency to provide context.
 - [ ] Make it crystal clear at a distance when something is in focus.
@@ -48,7 +50,7 @@
 - [ ] Image layering to support the parallax effect is a requirement for your app icon and is supported for dynamic top shelf content on the Home screen.
 - [ ] Image layering is strongly encouraged anywhere focusable image-based content resides in your app.
 
-## [Remote and interactions](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-interaction/)
+# [Remote and interactions](https://developer.apple.com/tvos/human-interface-guidelines/remote-and-interaction/)
 ![Siri Remote](images/remote/siri_remote.png)
 ![Siri Remote interactions](images/remote/siri_remote_interactions.png)
 
@@ -71,7 +73,7 @@
 - [ ] Menu: previous screen, home screen when at top level (main app screen).
 - [ ] ALWAYS enable all buttons —> Esp. play/pause… feel broken otherwise.
 
-## [Navigation](https://developer.apple.com/tvos/human-interface-guidelines/navigation-and-focus/)
+# [Navigation](https://developer.apple.com/tvos/human-interface-guidelines/navigation-and-focus/)
 - [ ] Standard interface elements: tab bars, table views, collection views, split views and segmented controls.
 - [ ] Simplify information structure and organise / optimise for minimum number of screens / taps / clicks.
 - [ ] Move through focusable items with as few gestures as possible.
@@ -91,7 +93,7 @@
 - [ ] Revert animation / state when unfocussing.
 - [ ] DON’T DISPLAY A CURSOR(!)
 
-## [Icons and images](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/)
+# [Icons and images](https://developer.apple.com/tvos/human-interface-guidelines/icons-and-images/)
 - [ ] Always provide images at the size required by the UI. —> Not too small, not too big (as downscaling takes time)
 - [ ] All images are @1x.
 
@@ -120,7 +122,7 @@ So… 13 > 15
 - [ ] Can use multilayer images.
 - [ ] Can use dynamic content layout.
 
-### Sectioned content row
+## Sectioned content row
 ￼![Sectioned content row](images/icons_images/sectioned_content_row.png)
 
 - [ ] Use eg. recently viewed, new content, favorites.
@@ -131,7 +133,7 @@ So… 13 > 15
 - [ ] Combining is possible, but keep in mind automatic scaling up to match height.
 ￼![Sectioned content row sizes](images/icons_images/sectioned_content_row_sizes.png)
 
-### Scrolling inset banner
+## Scrolling inset banner
 ![Scrolling inset banner](images/icons_images/scrolling_inset_banner.png)
 ￼
 - [ ] Automatically scrolls (left to right) on timer until focus.
@@ -141,13 +143,13 @@ So… 13 > 15
 - [ ] No label, so add text to image when needed. Keep layers in mind, so text should be on top for legibility.
 ￼![Scrolling inset banner sizes](images/icons_images/scrolling_inset_banner_sizes.png)
 
-### Game center images
+## Game center images
 - [ ] Achievement icons —> Not focusable.
 - [ ] Dashboard artwork (which is at top of game’s dashboard) —> Not focusable.
 - [ ] Leaderboard artwork —> Focusable
 ￼![Gamecenter info and image sizes](images/icons_images/gamecenter_info_and_sizes.png)
 
-### Layered images
+## Layered images
 - [ ] Two to five distinct layers.
 - [ ] Higher levels elevate and scale, overlapping lower levels further back and producing a 3D effect.
 - [ ] MUST for app icons, STRONGLY RECOMMENDED for focusable content (including top shelf).
@@ -164,7 +166,7 @@ So… 13 > 15
 - [ ] Layers made of PNG’s create LSR files automatically.
 - [ ] Parallax Exporter Photoshop Plug-in can be used to create LSR files.
 
-### Launch Image
+## Launch Image
 - [ ] MUST be added to an app. (1920px by 1080px)
 - [ ] Static.
 - [ ] As on iOS, used to give perception of faster loading speed.
@@ -173,22 +175,22 @@ So… 13 > 15
 - [ ] SHOULDN’T draw attention to app launching experience.
 - [ ] NO ADS / SPLASH SCREEN —> Exception: when branding is part of first screen.
 
-## [Visual Design](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/)
-### Animation
+# [Visual Design](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/)
+## Animation
 - [ ] Built into UIKit.
 - [ ] Avoid using animation without user interaction.
 - [ ] Carefully consider animation; don’t use it for the sake of using it.
 - [ ] Avoid animations with excessive movement, as they can be annoying on a TV.
 - [ ] Strive for realism and credibility: content is lightweight; don’t animate it like it isn’t (eg. no bouncing, springing).
 
-### Branding
+## Branding
 - [ ] Branding through font / color / image > branding with assets.
 - [ ] Don’t overdo branding.
 - [ ] Use colors from your app icon throughout the interface.
 - [ ] Consider using a custom tint or font, or subtly customizing the background.
 - [ ] Avoid displaying a logo throughout the app unless necessary for providing context.
 
-### Color
+## Color
 - [ ] Enhances content.
 - [ ] Draws people into content (instead of around it).
 - [ ] Colors should complement app logo.
@@ -199,11 +201,11 @@ So… 13 > 15
 - [ ] Be aware of color blindness.
 - [ ] Focus by scaling and animation, color is secondary.
 
-### Content
+## Content
 - [ ] Respect [parental controls](https://developer.apple.com/library/prerelease/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/StrategiesforImplementingYourApp/StrategiesforImplementingYourApp.html#//apple_ref/doc/uid/TP40007072-CH5-SW42).
 - [ ] Create for multiple people (at once).
 
-## Layout
+# Layout
 - [ ] Keep primary content away from the edges of the screen.
 ￼![Layout margin](images/layout/layout_margin.png)
 
@@ -219,27 +221,27 @@ So… 13 > 15
 - [ ] Use consistent spacing.
 - [ ] Offscreen content should be symmetrical on both sides of the screen (either up/down(?), left/right).
 
-### Layout templates
+## Layout templates
 - [ ] Can be customized, but avoid when not needed.
 - [ ] When customizing, keep an eye on the original template. Consider using another when it changes too much, or build a custom one.
 - [ ] Built with TVML.
 - [ ] Please view all [layout templates](https://developer.apple.com/tvos/human-interface-guidelines/visual-design/#layout-templates).
 
-### Text
+## Text
 - [ ] Minimize text —> Show, don’t tell (eg. images, animation).
 - [ ] < 40pt SF Text, > 40pt SF Display
 - [ ] Support accessibility features (eg. bold text) when using custom fonts.
 ￼![Font example](images/other/font_example.png)
 
-### Video
+## Video
 - [ ] Use the system video player to provide a consistent viewing experience.
 - [ ] Only create a custom one when truly necessary.
 - [ ] Avoid overlays, such as logos (an unobtrusive logo or countdown can be used, but content is key).
 - [ ] Interactive elements should be shown with a delay of at least 0.5 seconds. Playback should continue when dismissed.
 - [ ] Customize a video’s information with image, title, description, …
 
-## [Interface elements](https://developer.apple.com/tvos/human-interface-guidelines/ui-elements/)
-### Tab bar
+# [Interface elements](https://developer.apple.com/tvos/human-interface-guidelines/ui-elements/)
+## Tab bar
 - [ ] Used to logically organize content at the top level of your app.
 - [ ] Use badges when applicable (number or excl. mark).
 - [ ] Keep badging manageable.
@@ -248,7 +250,7 @@ So… 13 > 15
 - [ ] Use short tab-titles (nouns, verbs), no images.
 - [ ] Apply tint / adjust opacity to match your app’s color scheme / style.
 
-### Tableview
+## Tableview
 - [ ] Mostly used in a split view.
 - [ ] Adjust table width according to context.
 - [ ] Keep tables easily scannable.
@@ -258,20 +260,20 @@ So… 13 > 15
 - [ ] Keep focused state in mind —> applies rounding mask, becomes larger.
 - [ ] DON’T offer edit / delete option unless necessary, as it is a tedious task on Apple TV.
 
-### Collectionview
+## Collectionview
 - [ ] Best for image based content (that varies in size).
 - [ ] Use padding to ease focussing and prevent clipping.
 - [ ] Consider a tableview instead when using text.
 - [ ] Consider using a template (https://developer.apple.com/tvos/human-interface-guidelines/visual-design/#layout-templates)
 
-### Splitview
+## Splitview
 - [ ] Defaults to ⅓ primary, ⅔ secondary.
 - [ ] Make sure it doesn’t look unbalanced.
 - [ ] Always keep highlighting the primary pane, also when browsing the secondary pane.
 - [ ] Use one title for the whole view.
 - [ ] Place the title above the primary view only when the secondary pane needs it’s room.
 
-### Text
+## Text
 - [ ] Minimize text entry.
 - [ ] Physical keyboard CAN be connected.
 - [ ] Remote app(?).
@@ -280,12 +282,12 @@ So… 13 > 15
 - [ ] Use secure text field when appropriate.
 - [ ] Use keyboard types.
 
-### Search
+## Search
 - [ ] Provide recent searches before the users starts typing.
 - [ ] Simplify results —> provide custom view when needed, present smaller set of results.
 - [ ] Implement a scope bar when applicable.
 
-### Buttons
+## Buttons
 - [ ] Use an icon or title, not both (when possible).
 - [ ] Label and confirm destructive actions (eg. deleting).
 - [ ] No back buttons.
@@ -296,22 +298,22 @@ So… 13 > 15
 - [ ] Text should be short and to the point.
 - [ ] Text can be truncated when too long.
 
-### Navigation bar
+## Navigation bar
 - [ ] Can be used instead of a tab bar where applicable.
 
-### Page controls
+## Page controls
 - [ ] Informational only, non-interactive.
 - [ ] Use for collections of full-screen pages.
 - [ ] Avoid displaying too many pages.
 - [ ] If many are needed, consider a grid, enabling non-sequential navigation.
 
-### Indicators
+## Indicators
 - [ ] Use an indicator when loading at all times.
 - [ ] Disappears when action is complete.
 - [ ] Progress bar (when quantifiable) > activity indicator
 - [ ] For an activity indicator, provide a text label (which is not vague like ‘loading’ or ‘authenticating’, but contextual).
 
-### Segmented controls
+## Segmented controls
 - [ ] Use when displaying multiple views.
 - [ ] Options should be closely related but mutually exclusive (eg. playlist and albums).
 - [ ] Selected on focus, not click.
@@ -321,7 +323,7 @@ So… 13 > 15
 - [ ] All segments are equal width, so try making the content inside ± equal, too.
 - [ ] Use text or icons, don’t mix.
 
-### Alerts
+## Alerts
 - [ ] Convey important information.
 - [ ] Title is required and should be meaningful (read: multiword).
 - [ ] Message is optional.
@@ -337,4 +339,4 @@ So… 13 > 15
 - [ ] Set a button as destructive when applicable (eg. deleting or hiding content). Do NOT use for other things (eg. buying, renting).
 - [ ] ‘Menu’-button on Siri Remote should perform cancel.
 
-## [Resources](https://developer.apple.com/tvos/human-interface-guidelines/resources/)
+# [Resources](https://developer.apple.com/tvos/human-interface-guidelines/resources/)
