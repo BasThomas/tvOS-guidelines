@@ -1,24 +1,24 @@
 # Apple TV
 
-[**General**](#General)
+[**General**](#general)
 
-[**Frameworks**](#Frameworks)
+[**Frameworks**](#frameworks)
 
-[**Human Interface Guidelines**](#Human Interface Guidelines)
+[**Human Interface Guidelines**](#human Interface Guidelines)
 
-[**Remote and interactions**](#Remote and interactions)
+[**Remote and interactions**](#remote and interactions)
 
-[**Navigation**](#Navigation)
+[**Navigation**](#navigation)
 
-[**Icons and images**](#Icons and images)
+[**Icons and images**](#icons and images)
 
-[**Visual Design**](#Visual Design)
+[**Visual Design**](#visual design)
 
 [**Layout**](#layout)
 
-[**Interface elements**](#Interface elements)
+[**Interface elements**](#interface elements)
 
-[**Resources**](#Resources)
+[**Resources**](#resources)
 
 # General
 - [ ] tvOS and iOS work together.
